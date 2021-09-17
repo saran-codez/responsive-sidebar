@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navbar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="sidebar">
+      <header class="logo-content">
+        <div class="logo">
+          <em class="bx bxl-c-plus-plus"></em>
+          <div class="logo-name">YourSite</div>
+        </div>
+        <button id="btn">
+          <em class="bx bx-menu"></em>
+        </button>
+        <nav class="main-nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <em class="bx bx-search"></em>
+              <input type="text" placeholder="Search..." />
+
+              <span class="tooltip">Search</span>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <em class="bx bx-user"></em>
+                <span class="links-name">User</span>
+              </a>
+              <span class="tooltip">User</span>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <em class="bx bx-chat"></em>
+                <span class="links-name">Messages</span>
+              </a>
+              <span class="tooltip">Messages</span>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <em class="bx bx-pie-chart-alt-2"></em>
+                <span class="links-name">Analytics</span>
+              </a>
+              <span class="tooltip">Analytics</span>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <em class="bx bx-folder"></em>
+                <span class="links-name">File Manager</span>
+              </a>
+              <span class="tooltip">File Manager</span>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <em class="bx bx-cart-alt"></em>
+                <span class="links-name">Orders</span>
+              </a>
+              <span class="tooltip">Orders</span>
+            </li>
+            <li class="nav-item">
+              <a href="#">
+                <em class="bx bx-cog"></em>
+                <span class="links-name">Settings</span>
+              </a>
+              <span class="tooltip">Settings</span>
+            </li>
+          </ul>
+          <div class="profile-content">
+            <div class="profile">
+              <div class="profile-info">
+                <img src="./images/profile.jpg" alt="" />
+                <div class="details">
+                  <div class="name">Joseph Cornell</div>
+                  <div class="job">Web Designer</div>
+                </div>
+              </div>
+              <em id="logout" class="bx bx-log-out"></em>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </section>
+    <section class="home-content">
+      <div class="text">Home Content</div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
